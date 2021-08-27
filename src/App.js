@@ -7,8 +7,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello from Lightbulb Web Services!
         </p>
+        <a
+          className="App-link"
+          href="https://thehotline.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit TheHotline.org
+        </a>
         <a
           className="App-link"
           href="https://reactjs.org"
