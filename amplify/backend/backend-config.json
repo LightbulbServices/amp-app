@@ -22,5 +22,28 @@
         ]
       }
     }
+  },
+  "api": {
+    "ampAppGraphqlApi": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authampapp8271209c27bc666"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
+  "storage": {
+    "ampAppTutorial": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }

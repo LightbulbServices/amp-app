@@ -21,7 +21,12 @@ const awsmobile = {
     "aws_cognito_password_protection_settings": {
         "passwordPolicyMinLength": 8,
         "passwordPolicyCharacters": []
-    }
+    },
+    "aws_appsync_graphqlEndpoint": "https://32mb3fh6fvbsrli4trk4uzkiwa.appsync-api.us-east-1.amazonaws.com/graphql",
+    "aws_appsync_region": "us-east-1",
+    "aws_appsync_authenticationType": "AMAZON_COGNITO_USER_POOLS",
+    "aws_user_files_s3_bucket": "amp-app-tutorial191006-staging",
+    "aws_user_files_s3_bucket_region": "us-east-1"
 };
 
 
